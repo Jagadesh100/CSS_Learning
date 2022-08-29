@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        #p{
+            padding: 2px;
+            border:3px solid black;
+            border-radius: 2px;
+            width: 5%;
+            text-align: center;
+            font-family:'Times New Roman', Times, serif;
+            background-color: springgreen;
+            font-style: oblique;
+            font-variant: normal;
+            font-weight:bold;
+        }
+
+        .disp
+        {
+            border:3px solid black;
+            background-color: lightcoral;
+            padding: 2px;
+            font-weight: bolder;
+            display: inline;
+            border-radius: 50px;
+        }
+        a
+        {
+            text-decoration: none;
+            border: 3px solid black;
+            background-color: lawngreen;
+            display: inline-block;
+            padding: 4px;
+            color: maroon;
+            font-weight: bold;
+            border-radius: 30px 56px;
+            border-bottom-left-radius: 80px;
+        }
+        a:hover
+        {
+            background-color: yellow;
+        }
+        a:visited
+        {
+            background-color: aqua;
+        }
+        a:active
+        {
+            background-color: red;
+        }
+        .overflow
+        {
+            border: 3px solid black;
+            width: 200px;
+            background-color: blanchedalmond;
+            height: 100px;
+            /*overflow:scroll;*/
+            /*vertical Overflow*/
+            overflow-x: hidden;
+        }
+        .menu
+        {
+            border: 2px solid black;
+            background-color: goldenrod;
+            float: left;
+            width: 100px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <i class="fa-duotone fa-calendar"></i>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        
+        <tr>
+            <td>Jagadesh</td>
+            <td>Thirumal</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Jagadesh</td>
+            <td>Thirumal</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Jagadesh</td>
+            <td>Thirumal</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Jagadesh</td>
+            <td>Thirumal</td>
+            <td>22</td>
+        </tr>
+    </table>
+    <p id="p">Button</p>
+
+    <p class="disp">Display</p>
+    <span class="disp">Display 2</span>
+
+    <br>
+    <br>    
+    <a href="#">Link</a>
+    
+    
+    <div class="overflow">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolores fugit recusandae illo debitis maxime optio neque, minima quas iure!orem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, necessitatibus!Loremlorem10  
+    </div>
+  
+
+    <br>
+    <div class="menu">Home</div>
+    <div class="menu">About us</div>
+    <div class="menu">Contact</div>
+    <div class="menu">Index</div>
+</body>
+</html>

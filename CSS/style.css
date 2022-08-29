@@ -1,0 +1,58 @@
+#anchor{
+
+    background-color: darkorange;
+    text-decoration: none;
+
+}
+
+h3
+            {
+                /*Element/Tag selector*/
+                background-color: blanchedalmond;
+                width: 25%;
+            }
+            #anchor{
+                /*Id selector*/
+                background-color:khaki;
+                text-decoration: none;
+                color:black;
+                padding: 3px;
+                border: 3px solid black;
+                font-weight: 300;
+            }
+            .cls-btn{
+                 /*class selector*/
+                 background-color:khaki;
+                text-decoration: none;
+                color:black;
+                padding: 3px;
+                border: 3px solid black;
+                font-weight: 300;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            h1,p
+            {
+                /*Group Selector*/
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+table,tr,th,td
+        {
+            border: 3px solid black;
+            border-collapse: collapse;
+            width: 30%;
+        }
+        th{
+            background-color: greenyellow;
+        }
+        td{
+            text-align: center;
+        }
+        td:hover
+        {
+            background-color: yellow;
+        }
+        tr:hover
+        {
+            background-color: bisque;
+        }

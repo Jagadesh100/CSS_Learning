@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 105px;
+    background-color:black;
+    color:white;
+    margin-bottom: 0px;
+}
+.logo{
+    display: inline-block;
+    width: 10%;
+    position: relative;
+}
+.menu{
+    display: inline-block;
+    width: 60%;
+    position: absolute;
+    margin-left: 70px;
+    top:30px;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+.button{
+    display: inline-block;
+    border: 3px solid black;
+    width: 20%;
+    position: absolute;
+    margin-left: 930px;
+    top: 30px;
+}
+.button .button-success {
+    background: rgb(28, 184, 65);
+    font-weight: bold;
+    color: white;
+    /* this is a green */
+}
+.button .button-secondary {
+    background: rgb(66, 184, 221);
+    font-weight: bold;
+    color:white
+    /* this is a light blue */
+}
+.content{
+    background-color:darkkhaki;
+    height: 520px;
+    margin-bottom: 0px;
+    top: 0px;
+}
+.content h1{
+    text-align: center;
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    top: 0px;
+}
+.heritage{
+    background-color:darkkhaki;
+    height: 1200px;
+    margin-bottom: 0px;
+    top: 0px;
+}
+.gallery{
+    background-color:darkkhaki;
+    height: 2082px;
+    margin-bottom: 0px;
+    top: 0px;
+}
+.content .gallery img{
+    width: 300px;
+    height: 300px;
+}
+.form
+{
+    background-color: darkkhaki; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.form input{
+    border-radius: 20px;
+}
+.banner
+{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+footer{
+    background-color: darkgray;
+    color: black;
+    height: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellowgreen;
+}
